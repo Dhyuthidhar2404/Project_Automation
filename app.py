@@ -10,12 +10,11 @@ import re
 app = Flask(__name__, static_url_path='/static')
 ckeditor = CKEditor(app)
 
-GITHUB_REPO_OWNER = 'Dhyuthidhar2404'
-GITHUB_REPO_NAME = 'personal_blog'
-GITHUB_API_TOKEN = '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'
-HASHNODE_API_KEY = 'cf8158bd-935d-4236-bfd9-80cb4c5aa272'
-publication_id = "6328962199624fc71cd522e1"
-
+GITHUB_REPO_OWNER = #USERNAME
+GITHUB_REPO_NAME = #GITHUB REPO NAME
+GITHUB_API_TOKEN = #API TOKEN
+HASHNODE_API_KEY = #API TOKEN
+publication_id = #PUBLICATION ID
 @app.route('/')
 def index():
     return render_template('index.html')
